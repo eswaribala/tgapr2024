@@ -22,7 +22,7 @@
 </bean>	
 
 <bean id="address" class="com.tg.healthcareapp.models.Address">
-  <property name="doorNo" value="16"></property>
+  <constructor-arg index="0" name="doorNo" value="16"></constructor-arg>
    <property name="streetName" value="First Street"></property>
    <property name="city" value="Chennai"></property>
    <property name="state" value="TamilNadu"></property>

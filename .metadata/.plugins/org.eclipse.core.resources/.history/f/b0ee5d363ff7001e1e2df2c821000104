@@ -22,7 +22,7 @@
 </bean>	
 
 <bean id="address" class="com.tg.healthcareapp.models.Address">
-  <property name="doorNo" value="16"></property>
+  <constructor-arg index="0" name="doorNo" value="16"></constructor-arg>
    <property name="streetName" value="First Street"></property>
    <property name="city" value="Chennai"></property>
    <property name="state" value="TamilNadu"></property>
@@ -33,7 +33,7 @@
 </bean>
 <bean id="consultationService" class="com.tg.healthcareapp.models.ServicesOffered" factory-method="valueOf">
 	  <constructor-arg  value="Consultation"></constructor-arg>
-</bean>	
+	</bean>	
 <bean id="service1" class="com.tg.healthcareapp.models.Service">
   <constructor-arg index="0" name="serviceId" value="7237"></constructor-arg>
   <constructor-arg index="1" name="serviceName" ref="consultationService">

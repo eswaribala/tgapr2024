@@ -1,0 +1,11 @@
+package com.tg.healthcareapp.models;
+@Data
+public class Service {
+
+	private long serviceId;
+	private ServicesOffered serviceName;
+	private String serviceDescription;
+	private long servicePrice;
+	private boolean isActive;
+	
+}

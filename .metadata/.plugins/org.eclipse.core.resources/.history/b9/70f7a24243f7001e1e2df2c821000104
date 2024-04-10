@@ -1,0 +1,27 @@
+package com.tg.healthcareapp.models;
+
+import java.util.List;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+@Data
+//@AllArgsConstructor
+//@NoArgsConstructor
+@EqualsAndHashCode(callSuper = false)
+public class DentalClinic extends Clinic{
+
+	private boolean CBCTScan;
+
+	public DentalClinic(String clinicId, String clinicName, String businessName, Address address,
+			List<Service> services, boolean cBCTScan) {
+		super(clinicId, clinicName, businessName, address, services);
+		CBCTScan = cBCTScan;
+	}
+	
+	
+	
+	
+}

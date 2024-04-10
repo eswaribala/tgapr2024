@@ -8,17 +8,17 @@
 <!-- DI -->	
 <!-- creating bean instance -->
 <bean id="clinic" class="com.tg.healthcareapp.models.Clinic" scope="prototype">
-  <property   name="clinicId" value="CL-00001"></property>
-  <property name="clinicName" value="Veb Dental Care"></property>
-  <property  name="businessName" value="Dental Clinic"></property>
-  <property name="address" ref="address" ></property>
-  <property name="services">
+  <constructor-arg index="0"  name="clinicId" value="CL-00001"></constructor-arg>
+  <constructor-arg index="1"  name="clinicName" value="Veb Dental Care"></constructor-arg>
+  <constructor-arg index="2"  name="businessName" value="Dental Clinic"></constructor-arg>
+  <constructor-arg index="3"  name="address" ref="address" ></constructor-arg>
+  <constructor-arg index="4" name="services">
   <list>
   <ref bean="service1"></ref>
   <ref bean="service2"></ref>
   </list>
   
-  </property>
+  </constructor-arg>
 </bean>	
 
 <bean id="address" class="com.tg.healthcareapp.models.Address">
@@ -54,7 +54,7 @@
   <constructor-arg index="4" name="isActive" value="true"></constructor-arg>
 </bean>
 <bean id="dentalClinic" class="com.tg.healthcareapp.models.DentalClinic" parent="clinic" >
-  <property name="cbctScan" value="true"></property>
+  <property name="CBCTScan" value="true"></property>
 
 </bean>
 

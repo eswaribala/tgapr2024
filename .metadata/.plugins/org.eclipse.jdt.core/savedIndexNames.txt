@@ -1,0 +1,12 @@
+INDEX VERSION 1.134+E:\tgwsapr2024\.metadata\.plugins\org.eclipse.jdt.core
+2576109482.index
+2361826022.index
+1397604911.index
+213328457.index
+2499362284.index
+3413725848.index
+282910318.index
+1387401836.index
+1256307362.index
+1241330714.index
+1865797976.index

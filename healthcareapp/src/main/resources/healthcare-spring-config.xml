@@ -5,10 +5,17 @@
 	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	
+	<context:component-scan base-package="com.tg.healthcarapp.*">
+	</context:component-scan>
+	<context:annotation-config>
+	</context:annotation-config>
+       
+	
 <!-- DI -->	
 <!-- creating bean instance -->
 <bean id="clinic" class="com.tg.healthcareapp.models.Clinic" scope="prototype">
-  <property   name="clinicId" value="CL-00001"></property>
+ <!--  <property   name="clinicId" value="CL-00001"></property>
   <property name="clinicName" value="Veb Dental Care"></property>
   <property  name="businessName" value="Dental Clinic"></property>
   <property name="address" ref="address" ></property>
@@ -18,7 +25,7 @@
   <ref bean="service2"></ref>
   </list>
   
-  </property>
+  </property> -->
 </bean>	
 
 <bean id="address" class="com.tg.healthcareapp.models.Address">
@@ -54,7 +61,7 @@
   <constructor-arg index="4" name="isActive" value="true"></constructor-arg>
 </bean>
 <bean id="dentalClinic" class="com.tg.healthcareapp.models.DentalClinic" parent="clinic" >
-  <property name="cbctScan" value="true"></property>
+  <!-- <property name="cbctScan" value="true"></property> -->
 
 </bean>
 

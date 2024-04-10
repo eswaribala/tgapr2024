@@ -7,7 +7,6 @@ package com.tg.healthcareapp.utilities;
 import com.tg.healthcareapp.models.Clinic;
 import com.tg.healthcareapp.models.DentalClinic;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ClinicApp {
 

@@ -6,12 +6,8 @@
 	http://www.springframework.org/schema/context
 	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	
-	<context:component-scan base-package="com.tg.healthcarapp.*">
-	</context:component-scan>
-	<context:annotation-config>
-	</context:annotation-config>
-       
-	
+<context:annotation-config>
+</context:annotation-config>	
 <!-- DI -->	
 <!-- creating bean instance -->
 <bean id="clinic" class="com.tg.healthcareapp.models.Clinic" scope="prototype">

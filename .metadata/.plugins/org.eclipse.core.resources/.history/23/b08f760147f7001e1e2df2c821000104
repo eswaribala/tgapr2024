@@ -8,8 +8,7 @@
 	
 	<context:component-scan base-package="com.tg.healthcarapp.*">
 	</context:component-scan>
-	<context:annotation-config>
-	</context:annotation-config>
+	<context:annotation-config></context:annotation-config>
        
 	
 <!-- DI -->	

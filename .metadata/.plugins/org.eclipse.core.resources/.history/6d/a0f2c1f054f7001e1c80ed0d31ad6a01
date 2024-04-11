@@ -1,0 +1,23 @@
+package com.tg.healthcareapp.models;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Clinic {
+	
+	private String clinicId;
+	private String clinicName;
+	private String businessName;
+	@Autowired
+	private Address address;
+	private List<Service> services;
+
+}

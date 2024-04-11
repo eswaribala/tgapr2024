@@ -1,0 +1,5 @@
+package com.tg.healthcareapp.facades;
+
+public interface DataSource {
+
+}

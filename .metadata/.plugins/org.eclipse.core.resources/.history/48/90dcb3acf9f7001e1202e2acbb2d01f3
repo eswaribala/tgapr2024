@@ -1,0 +1,9 @@
+package com.tg.healthcareapp.models;
+
+public class Appointment {
+	
+	public Patient getPateint() {
+		return new Patient();
+	}
+
+}

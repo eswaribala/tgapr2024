@@ -1,0 +1,8 @@
+package com.tg.healthcareapp.models;
+@Data
+
+public class Patient {
+
+	private long patientId;
+	private long contactNo;
+}

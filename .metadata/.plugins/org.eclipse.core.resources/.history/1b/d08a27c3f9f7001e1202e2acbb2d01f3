@@ -1,0 +1,11 @@
+package com.tg.healthcareapp.models;
+
+public class Appointment {
+	
+	@Bean
+	public Patient getPateint() {
+		//java object
+		return new Patient();
+	}
+
+}

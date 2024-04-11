@@ -9,6 +9,8 @@ import com.tg.healthcareapp.models.Appointment;
 
 import com.tg.healthcareapp.models.Clinic;
 import com.tg.healthcareapp.models.DentalClinic;
+import com.tg.healthcareapp.models.MysqlDataSource;
+import com.tg.healthcareapp.models.OracleDataSource;
 import com.tg.healthcareapp.models.Patient;
 import com.tg.healthcareapp.models.Service;
 import com.tg.healthcareapp.models.ServicesOffered;
@@ -17,12 +19,15 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class ClinicApp {
 
+	private static final Logger logger=LoggerFactory.getLogger(ClinicApp.class);
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -43,6 +48,8 @@ public class ClinicApp {
 		//ctx.register(Service.class);
 		ctx.register(DentalClinic.class);
 		ctx.register(Appointment.class);
+		ctx.register(MysqlDataSource.class);
+		ctx.register(OracleDataSource.class);
 		//to avoid illegal state exception
 		ctx.refresh();
 		
@@ -87,8 +94,8 @@ public class ClinicApp {
 			address.setLongitude("18.5");
 			address.setLatitude("33.3");
 		//  clinic1.setAddress(address1);
-		  System.out.println("Clinic City-->"+clinic1.getAddress().getCity());
-		  System.out.println("Clinic Services");  
+			logger.info("Clinic City-->"+clinic1.getAddress().getCity());
+			logger.info("Clinic Services");  
 		  List<Service> services=clinic1.getServices();
           Service xRayService=services.get(0);
 		  xRayService.setActive(true); xRayService.setServiceId(2854833);
@@ -100,20 +107,20 @@ public class ClinicApp {
 			
 		  Clinic clinic2=(Clinic) ctx.getBean("clinic");
 		  clinic2.setClinicId("CL32845835284");
-		  System.out.println("Clinic Id-->"+clinic2.getClinicId());
-		  System.out.println("Clinic Name-->"+clinic2.getClinicName()); 
+		  logger.info("Clinic Id-->"+clinic2.getClinicId());
+		  logger.info("Clinic Name-->"+clinic2.getClinicName()); 
 		  //after  updating clinic Id 
-		  System.out.println("Clinic Id-->"+clinic1.getClinicId());		  
+		  logger.info("Clinic Id-->"+clinic1.getClinicId());		  
 		  
 		  DentalClinic dentalClinic=(DentalClinic) ctx.getBean("dentalClinic");
-		  System.out.println("Clinic Id-->"+dentalClinic.isCbctScan());
+		  logger.info("Clinic Id-->"+dentalClinic.isCbctScan());
 			 
 		 //access appointment
 		 Appointment appointment=(Appointment) ctx.getBean("appointment");
 		 appointment.setAppointmentDate(LocalDate.now().plusDays(7));
-		 System.out.println(appointment.getAppointmentDate().toString());
+		 logger.info(appointment.getAppointmentDate().toString());
 		 Patient patient=appointment.getPateint();
-		 System.out.println(patient.getContactNo());
+		 logger.info(String.valueOf(patient.getContactNo()));
 		  
 	}
 

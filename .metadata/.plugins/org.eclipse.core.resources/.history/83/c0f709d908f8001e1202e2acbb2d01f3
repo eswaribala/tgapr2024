@@ -1,0 +1,25 @@
+package com.tg.healthcareapp.models;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.config.BeanPostProcessor;
+
+public class ClinicBeanPostProcessor implements BeanPostProcessor {
+
+	private static final Logger logger=LoggerFactory.getLogger(ClientBeanProcessor.class);
+	@Override
+	public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
+		// TODO Auto-generated method stub
+		return BeanPostProcessor.super.postProcessBeforeInitialization(bean, beanName);
+	}
+
+	@Override
+	public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
+		// TODO Auto-generated method stub
+		return BeanPostProcessor.super.postProcessAfterInitialization(bean, beanName);
+	}
+
+	
+	
+	
+}

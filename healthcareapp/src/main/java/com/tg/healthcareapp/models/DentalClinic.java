@@ -1,6 +1,9 @@
 package com.tg.healthcareapp.models;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
+import com.tg.healthcareapp.facades.DataSource;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

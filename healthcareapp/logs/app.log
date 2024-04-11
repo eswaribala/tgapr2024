@@ -1,0 +1,142 @@
+2024-04-11 18:10:43,204 INFO c.t.h.m.MysqlDataSource [main] MysqlPatient Created
+2024-04-11 18:13:38,606 INFO c.t.h.m.MysqlDataSource [main] MysqlPatient Created
+2024-04-11 18:13:38,632 INFO c.t.h.u.ClinicApp [main] Clinic City-->Bangalore
+2024-04-11 18:13:38,632 INFO c.t.h.u.ClinicApp [main] Clinic Services
+2024-04-11 18:13:38,641 INFO c.t.h.u.ClinicApp [main] Clinic Id-->CL32845835284
+2024-04-11 18:13:38,641 INFO c.t.h.u.ClinicApp [main] Clinic Name-->null
+2024-04-11 18:13:38,642 INFO c.t.h.u.ClinicApp [main] Clinic Id-->CL32845835284
+2024-04-11 18:13:38,642 INFO c.t.h.u.ClinicApp [main] Clinic Id-->false
+2024-04-11 18:13:38,642 INFO c.t.h.u.ClinicApp [main] 2024-04-18
+2024-04-11 18:13:38,642 INFO c.t.h.u.ClinicApp [main] 0
+2024-04-11 19:12:28,210 INFO c.t.h.m.Clinic [main] Enters Clinic No Args Constructor
+2024-04-11 19:12:28,253 INFO c.t.h.m.Clinic [main] Enters Bean Name=clinic
+2024-04-11 19:12:28,254 INFO c.t.h.m.Clinic [main] Enters Clinic Bean Factoryorg.springframework.beans.factory.support.DefaultListableBeanFactory
+2024-04-11 19:12:28,254 INFO c.t.h.m.Clinic [main] Enters Application Context
+2024-04-11 19:12:28,255 INFO c.t.h.m.Clinic [main] Entering custom Initialization method....
+2024-04-11 19:12:28,255 INFO c.t.h.m.Clinic [main] Enters After Properties Set
+2024-04-11 19:12:28,256 INFO c.t.h.m.Clinic [main] Enters Clinic No Args Constructor
+2024-04-11 19:12:28,258 INFO c.t.h.m.Clinic [main] Enters Bean Name=dentalClinic
+2024-04-11 19:12:28,259 INFO c.t.h.m.Clinic [main] Enters Clinic Bean Factoryorg.springframework.beans.factory.support.DefaultListableBeanFactory
+2024-04-11 19:12:28,259 INFO c.t.h.m.Clinic [main] Enters Application Context
+2024-04-11 19:12:28,259 INFO c.t.h.m.Clinic [main] Entering custom Initialization method....
+2024-04-11 19:12:28,259 INFO c.t.h.m.Clinic [main] Enters After Properties Set
+2024-04-11 19:12:28,300 INFO c.t.h.u.ClinicApp [main] Clinic City-->Bangalore
+2024-04-11 19:12:28,301 INFO c.t.h.u.ClinicApp [main] Clinic Services
+2024-04-11 19:12:28,313 INFO c.t.h.u.ClinicApp [main] Clinic Id-->CL32845835284
+2024-04-11 19:12:28,313 INFO c.t.h.u.ClinicApp [main] Clinic Name-->null
+2024-04-11 19:12:28,314 INFO c.t.h.u.ClinicApp [main] Clinic Id-->CL32845835284
+2024-04-11 19:12:28,314 INFO c.t.h.u.ClinicApp [main] Clinic Id-->false
+2024-04-11 19:12:28,314 INFO c.t.h.u.ClinicApp [main] 2024-04-18
+2024-04-11 19:12:28,317 INFO c.t.h.m.MysqlDataSource [main] MysqlPatient Created
+2024-04-11 19:12:28,318 INFO c.t.h.u.ClinicApp [main] 0
+2024-04-11 19:15:02,110 INFO c.t.h.m.Clinic [main] Enters Clinic No Args Constructor
+2024-04-11 19:15:02,143 INFO c.t.h.m.Clinic [main] Enters Bean Name=clinic
+2024-04-11 19:15:02,144 INFO c.t.h.m.Clinic [main] Enters Clinic Bean Factoryorg.springframework.beans.factory.support.DefaultListableBeanFactory
+2024-04-11 19:15:02,144 INFO c.t.h.m.Clinic [main] Enters Application Context
+2024-04-11 19:15:02,144 INFO c.t.h.m.Clinic [main] Entering custom Initialization method....
+2024-04-11 19:15:02,144 INFO c.t.h.m.Clinic [main] Enters After Properties Set
+2024-04-11 19:15:02,145 INFO c.t.h.m.Clinic [main] Enters Clinic No Args Constructor
+2024-04-11 19:15:02,148 INFO c.t.h.m.Clinic [main] Enters Bean Name=dentalClinic
+2024-04-11 19:15:02,149 INFO c.t.h.m.Clinic [main] Enters Clinic Bean Factoryorg.springframework.beans.factory.support.DefaultListableBeanFactory
+2024-04-11 19:15:02,149 INFO c.t.h.m.Clinic [main] Enters Application Context
+2024-04-11 19:15:02,149 INFO c.t.h.m.Clinic [main] Entering custom Initialization method....
+2024-04-11 19:15:02,149 INFO c.t.h.m.Clinic [main] Enters After Properties Set
+2024-04-11 19:15:02,186 INFO c.t.h.u.ClinicApp [main] Clinic City-->Bangalore
+2024-04-11 19:15:02,186 INFO c.t.h.u.ClinicApp [main] Clinic Services
+2024-04-11 19:15:02,196 INFO c.t.h.u.ClinicApp [main] Clinic Id-->CL32845835284
+2024-04-11 19:15:02,197 INFO c.t.h.u.ClinicApp [main] Clinic Name-->null
+2024-04-11 19:15:02,197 INFO c.t.h.u.ClinicApp [main] Clinic Id-->CL32845835284
+2024-04-11 19:15:02,198 INFO c.t.h.u.ClinicApp [main] Clinic Id-->false
+2024-04-11 19:15:02,198 INFO c.t.h.u.ClinicApp [main] 2024-04-18
+2024-04-11 19:15:02,201 INFO c.t.h.m.MysqlDataSource [main] MysqlPatient Created
+2024-04-11 19:15:02,202 INFO c.t.h.u.ClinicApp [main] 0
+2024-04-11 19:17:33,983 INFO c.t.h.m.Clinic [main] Enters Clinic No Args Constructor
+2024-04-11 19:17:33,995 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:17:33,996 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initializationcom.tg.healthcareapp.models.Address
+2024-04-11 19:17:33,996 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,006 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,006 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initializationcom.tg.healthcareapp.models.Service
+2024-04-11 19:17:34,006 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,015 INFO c.t.h.m.Clinic [main] Enters Bean Name=clinic
+2024-04-11 19:17:34,015 INFO c.t.h.m.Clinic [main] Enters Clinic Bean Factoryorg.springframework.beans.factory.support.DefaultListableBeanFactory
+2024-04-11 19:17:34,015 INFO c.t.h.m.Clinic [main] Enters Application Context
+2024-04-11 19:17:34,015 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,015 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:17:34,016 INFO c.t.h.m.Clinic [main] Entering custom Initialization method....
+2024-04-11 19:17:34,016 INFO c.t.h.m.Clinic [main] Enters After Properties Set
+2024-04-11 19:17:34,016 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,016 INFO c.t.h.m.Clinic [main] Enters Clinic No Args Constructor
+2024-04-11 19:17:34,018 INFO c.t.h.m.Clinic [main] Enters Bean Name=dentalClinic
+2024-04-11 19:17:34,018 INFO c.t.h.m.Clinic [main] Enters Clinic Bean Factoryorg.springframework.beans.factory.support.DefaultListableBeanFactory
+2024-04-11 19:17:34,018 INFO c.t.h.m.Clinic [main] Enters Application Context
+2024-04-11 19:17:34,018 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,018 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:17:34,018 INFO c.t.h.m.Clinic [main] Entering custom Initialization method....
+2024-04-11 19:17:34,018 INFO c.t.h.m.Clinic [main] Enters After Properties Set
+2024-04-11 19:17:34,018 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,020 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,020 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:17:34,020 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,020 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,020 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:17:34,020 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,020 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,021 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:17:34,021 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,048 INFO c.t.h.u.ClinicApp [main] Clinic City-->Bangalore
+2024-04-11 19:17:34,048 INFO c.t.h.u.ClinicApp [main] Clinic Services
+2024-04-11 19:17:34,055 INFO c.t.h.u.ClinicApp [main] Clinic Id-->CL32845835284
+2024-04-11 19:17:34,056 INFO c.t.h.u.ClinicApp [main] Clinic Name-->null
+2024-04-11 19:17:34,056 INFO c.t.h.u.ClinicApp [main] Clinic Id-->CL32845835284
+2024-04-11 19:17:34,057 INFO c.t.h.u.ClinicApp [main] Clinic Id-->false
+2024-04-11 19:17:34,057 INFO c.t.h.u.ClinicApp [main] 2024-04-18
+2024-04-11 19:17:34,058 INFO c.t.h.m.MysqlDataSource [main] MysqlPatient Created
+2024-04-11 19:17:34,059 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,060 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:17:34,060 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor Before Initialization
+2024-04-11 19:17:34,060 INFO c.t.h.u.ClinicApp [main] 0
+2024-04-11 19:18:03,537 INFO c.t.h.m.Clinic [main] Enters Clinic No Args Constructor
+2024-04-11 19:18:03,546 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:18:03,547 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initializationcom.tg.healthcareapp.models.Address
+2024-04-11 19:18:03,547 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor After Initialization
+2024-04-11 19:18:03,552 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:18:03,552 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initializationcom.tg.healthcareapp.models.Service
+2024-04-11 19:18:03,552 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor After Initialization
+2024-04-11 19:18:03,560 INFO c.t.h.m.Clinic [main] Enters Bean Name=clinic
+2024-04-11 19:18:03,560 INFO c.t.h.m.Clinic [main] Enters Clinic Bean Factoryorg.springframework.beans.factory.support.DefaultListableBeanFactory
+2024-04-11 19:18:03,560 INFO c.t.h.m.Clinic [main] Enters Application Context
+2024-04-11 19:18:03,561 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:18:03,561 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:18:03,561 INFO c.t.h.m.Clinic [main] Entering custom Initialization method....
+2024-04-11 19:18:03,561 INFO c.t.h.m.Clinic [main] Enters After Properties Set
+2024-04-11 19:18:03,562 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor After Initialization
+2024-04-11 19:18:03,562 INFO c.t.h.m.Clinic [main] Enters Clinic No Args Constructor
+2024-04-11 19:18:03,564 INFO c.t.h.m.Clinic [main] Enters Bean Name=dentalClinic
+2024-04-11 19:18:03,564 INFO c.t.h.m.Clinic [main] Enters Clinic Bean Factoryorg.springframework.beans.factory.support.DefaultListableBeanFactory
+2024-04-11 19:18:03,564 INFO c.t.h.m.Clinic [main] Enters Application Context
+2024-04-11 19:18:03,564 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:18:03,564 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:18:03,564 INFO c.t.h.m.Clinic [main] Entering custom Initialization method....
+2024-04-11 19:18:03,564 INFO c.t.h.m.Clinic [main] Enters After Properties Set
+2024-04-11 19:18:03,564 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor After Initialization
+2024-04-11 19:18:03,566 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:18:03,566 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:18:03,566 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor After Initialization
+2024-04-11 19:18:03,566 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:18:03,567 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:18:03,567 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor After Initialization
+2024-04-11 19:18:03,567 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:18:03,567 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:18:03,567 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor After Initialization
+2024-04-11 19:18:03,596 INFO c.t.h.u.ClinicApp [main] Clinic City-->Bangalore
+2024-04-11 19:18:03,596 INFO c.t.h.u.ClinicApp [main] Clinic Services
+2024-04-11 19:18:03,605 INFO c.t.h.u.ClinicApp [main] Clinic Id-->CL32845835284
+2024-04-11 19:18:03,606 INFO c.t.h.u.ClinicApp [main] Clinic Name-->null
+2024-04-11 19:18:03,606 INFO c.t.h.u.ClinicApp [main] Clinic Id-->CL32845835284
+2024-04-11 19:18:03,606 INFO c.t.h.u.ClinicApp [main] Clinic Id-->false
+2024-04-11 19:18:03,606 INFO c.t.h.u.ClinicApp [main] 2024-04-18
+2024-04-11 19:18:03,608 INFO c.t.h.m.MysqlDataSource [main] MysqlPatient Created
+2024-04-11 19:18:03,609 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization
+2024-04-11 19:18:03,609 INFO c.t.h.m.ClinicBeanPostProcessor [main] Enter Bean PostProcessor Before Initialization no beanName
+2024-04-11 19:18:03,609 INFO c.t.h.m.ClinicBeanPostProcessor [main] After Bean PostProcessor After Initialization
+2024-04-11 19:18:03,610 INFO c.t.h.u.ClinicApp [main] 0

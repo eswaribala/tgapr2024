@@ -1,0 +1,69 @@
+<!-- <beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+	check download doc in maven preferences
+	<context:component-scan base-package="com.tg.healthcareapp.*">
+	</context:component-scan>
+	<context:annotation-config>
+	</context:annotation-config>
+       
+	
+DI	
+creating bean instance
+ <bean id="clinic" class="com.tg.healthcareapp.models.Clinic" autowire="byType" scope="prototype">
+  <property   name="clinicId" value="CL-00001"></property>
+  <property name="clinicName" value="Veb Dental Care"></property>
+  <property  name="businessName" value="Dental Clinic"></property>
+  <property name="address" ref="address" ></property>
+  <property name="services">
+  <list>
+  <ref bean="service1"></ref>
+  <ref bean="service2"></ref>
+  </list>
+  
+  </property> 
+</bean>	
+
+ <bean id="address" class="com.tg.healthcareapp.models.Address">
+  <property name="doorNo" value="16"></property>
+   <property name="streetName" value="First Street"></property>
+   <property name="city" value="Chennai"></property>
+   <property name="state" value="TamilNadu"></property>
+   <property name="country" value="India"></property>
+   <property name="postalCode" value="602024"></property>
+    <property name="longitude" value="80.2"></property>
+     <property name="latitude" value="13.5"></property>    
+</bean>
+ <bean id="consultationService" class="com.tg.healthcareapp.models.ServicesOffered" factory-method="valueOf">
+	  <constructor-arg  value="Consultation"></constructor-arg>
+</bean>	 
+ <bean id="service1" class="com.tg.healthcareapp.models.Service">
+  <constructor-arg index="0" name="serviceId" value="7237"></constructor-arg>
+  <constructor-arg index="1" name="serviceName" ref="consultationService">
+  </constructor-arg>
+  <constructor-arg index="2" name="serviceDescription" value="Health Check"></constructor-arg>
+  <constructor-arg index="3" name="servicePrice" value="1000"></constructor-arg>
+  <constructor-arg index="4" name="isActive" value="true"></constructor-arg>
+</bean>
+<bean id="xrayService" class="com.tg.healthcareapp.models.ServicesOffered" factory-method="valueOf">
+	  <constructor-arg value="Xray"></constructor-arg>
+	</bean>	
+	
+	<bean id="service2" class="com.tg.healthcareapp.models.Service">
+  <constructor-arg index="0" name="serviceId" value="7238"></constructor-arg>
+  <constructor-arg index="1" name="serviceName" ref="xrayService"></constructor-arg>
+  <constructor-arg index="2" name="serviceDescription" value="Health Check"></constructor-arg>
+  <constructor-arg index="3" name="servicePrice" value="1000"></constructor-arg>
+  <constructor-arg index="4" name="isActive" value="true"></constructor-arg>
+</bean> 
+ <bean id="dentalClinic" class="com.tg.healthcareapp.models.DentalClinic" parent="clinic" >
+  <property name="cbctScan" value="true"></property>
+
+</bean>
+
+</beans> -->
+	

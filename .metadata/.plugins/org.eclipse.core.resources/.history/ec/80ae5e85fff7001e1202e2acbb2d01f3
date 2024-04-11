@@ -17,15 +17,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Appointment {
 	private LocalDate appointmentDate;
-	private DataSource _dataSource;
 	@Autowired
-	public Appointment(DataSource dataSource) {
-		_dataSource=dataSource;
-	}
+	private DataSource dataSource;
 	@Bean
 	//spring object
 	public Patient getPateint() {
-		_dataSource.addData("Pateint Instance Created");
+		dataSource.addData("Pateint Instance Created");
 		//java object
 		return new Patient();
 	}

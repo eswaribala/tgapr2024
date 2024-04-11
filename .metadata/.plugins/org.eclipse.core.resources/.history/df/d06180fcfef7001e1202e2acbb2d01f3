@@ -6,13 +6,15 @@ import org.springframework.stereotype.Component;
 
 import com.tg.healthcareapp.facades.DataSource;
 @Component
-public class OracleDataSource implements DataSource{
+@Primary
+public class MysqlDataSource implements DataSource{
+
 	private static final Logger logger= LoggerFactory.
 			getLogger(MysqlDataSource.class);
 	@Override
 	public void addData(String message) {
 		// TODO Auto-generated method stub
-		logger.info("Oracle"+message);
+		logger.info("Mysql"+message);
 	}
 
 }

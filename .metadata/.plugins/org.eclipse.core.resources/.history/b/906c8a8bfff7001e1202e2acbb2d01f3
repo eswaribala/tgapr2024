@@ -25,7 +25,7 @@ public class Appointment {
 	@Bean
 	//spring object
 	public Patient getPateint() {
-		_dataSource.addData("Pateint Instance Created");
+		dataSource.addData("Pateint Instance Created");
 		//java object
 		return new Patient();
 	}

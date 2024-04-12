@@ -13,8 +13,28 @@
 <article>
 <h1 class="multicolortext">Veb Dental Care</h1>
 </article>
+<figure>
+<img src="../images/Implants.jpg" class="imageRight" />
+</figure>
 </header>
-<section>
+<section class="section">
+<aside>
+<figure>
+<img src="../images/2D9A9290.JPG"  class="banner" />
+</figure>
+</aside>
+<article>
+<form class="form" method="post" action="/register" th:object="${clinic}">
+<fieldset>
+<legend>Signup</legend>
+<input type="text" th:field="*{clinicId}" pattern="[A-Za-z]{2}-[0-9]{6,12}" required placeholder="Clinic Id">
+<input type="text" th:field="*{clinicName}" pattern="[A-Za-z]{5,75}" required placeholder="Clinic Name">
+<input type="text" th:field="*{businessName}" pattern="[A-Za-z]{5,75}" required placeholder="Business Name">
+<input type="submit" value="submit">
+</fieldset>
+
+</form>
+</article>
 </section>
 </body>
 </html>

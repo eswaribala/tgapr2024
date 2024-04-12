@@ -1,23 +1,75 @@
 .header{
-	width:100%;
-	 flex-direction: row;
-	  align-items: center;
-	  justify-content: center;
-	  font-size: calc(10px + 2vmin);
-	  color: black;
+ background-color: black;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+   align-items:center;
+   justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 	  
 	
 }
+
+
+
 .image{
-	width:10%;
-	float:left;
-	margin-right: 35%;
 	
+	width:50px;
+	height:50px;
+
 }
+
+.imageRight{
+	
+	width:50px;
+    float:right;
+    height:50px;
+}
+
 .multicolortext {
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   color: transparent;
-  font-family: "Lucida Calligraphy";
-  margin-right: 25%;
+  font-family: "Lucida Calligraphy";  
+}
+
+.section{
+ background-color: white;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+   align-items:flex-start;
+   justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: black;
+	  
+	
+}
+
+.banner{
+	width:750px;
+	height:500px;
+}
+
+.form{
+	width:50%;
+	margin-top:10%;
+	background-color: silver;
+}
+
+.form legend{
+	text-align: center;
+}
+
+input{
+	width:100%;
+	margin:4%;
+}
+input[type=submit]{
+	width:100%;
+	background-color: navy;
+	color:white;
+	font-size: x-large;
+	margin:4%;
 }

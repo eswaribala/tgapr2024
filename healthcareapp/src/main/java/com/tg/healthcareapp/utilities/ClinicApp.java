@@ -122,6 +122,7 @@ public class ClinicApp {
 		 Patient patient=appointment.getPateint();
 		 logger.info(String.valueOf(patient.getContactNo()));
 		  
+		 ctx.registerShutdownHook();
 	}
 
 }

@@ -39,7 +39,7 @@ public class Service {
     @Column(name="Is_Active")
 	private boolean isActive;
     @ManyToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
-   	@JoinColumn(foreignKey = @ForeignKey(name = "Clinic_Id"),
-               name = "Clinic_Id_FK")
+   	@JoinColumn(foreignKey = @ForeignKey(name = "Clinic_Service_Id"),
+               name = "Clinic_ServiceId_FK")
        private Clinic clinic;
 }

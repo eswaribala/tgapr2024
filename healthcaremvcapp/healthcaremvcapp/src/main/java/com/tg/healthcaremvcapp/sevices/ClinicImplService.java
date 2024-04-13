@@ -41,13 +41,14 @@ public class ClinicImplService implements ClinicService{
 	//retrieve clinic by name
 	public List<Clinic> getClinicByName(String clinicName){
 		
-		CriteriaBuilder cb= entityManager.getCriteriaBuilder();
-		CriteriaQuery<Clinic> cq= cb.createQuery(Clinic.class);
-		Root<Clinic> root= cq.from(Clinic.class);
-		cq.where(cb.equal(root.get("clinicName"), clinicName));
-		CriteriaQuery<Clinic> result=cq.select(root);
-		TypedQuery<Clinic> typedQuery= entityManager.createQuery(result);
-		return typedQuery.getResultList();
+		//return this.clinicRepository.findByClinicName(clinicName);
+		
+		  CriteriaBuilder cb= entityManager.getCriteriaBuilder(); CriteriaQuery<Clinic>
+		  cq= cb.createQuery(Clinic.class); Root<Clinic> root= cq.from(Clinic.class);
+		  cq.where(cb.equal(root.get("clinicName"), clinicName)); CriteriaQuery<Clinic>
+		  result=cq.select(root); TypedQuery<Clinic> typedQuery=
+		  entityManager.createQuery(result); return typedQuery.getResultList();
+		 
 	}
 	
 	

@@ -1,5 +1,6 @@
 package com.tg.patientregistrationapi.models;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
 import jakarta.persistence.Column;
@@ -11,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Embeddable
-public class FullName {
+public class FullName implements Serializable{
 	@Column(name="First_Name",length = 50,nullable = false )
 	private String firstName;
 	@Column(name="Middle_Name",length = 50)

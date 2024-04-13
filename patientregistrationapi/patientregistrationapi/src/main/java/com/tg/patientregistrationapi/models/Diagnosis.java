@@ -1,5 +1,6 @@
 package com.tg.patientregistrationapi.models;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 
 import jakarta.persistence.CascadeType;
@@ -21,7 +22,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name="Diagnosis")
-public class Diagnosis {
+public class Diagnosis implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="Diagnosis_Id")

@@ -68,6 +68,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\tgwsapr2024\patientregistrationapi\patientregistrationapi"/>
 			<item value="E:\tgwsapr2024\healthcaremvcapp\healthcaremvcapp"/>
 		</list>
 		<list key="projectNameTemplate">

@@ -68,6 +68,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="I:\virtusa_aug2019\day15springjparestdemo"/>
 			<item value="E:\tgwsapr2024\patientregistrationapi\patientregistrationapi"/>
 			<item value="E:\tgwsapr2024\healthcaremvcapp\healthcaremvcapp"/>
 		</list>

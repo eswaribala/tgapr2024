@@ -37,6 +37,7 @@ public class AppointmentServiceImpl implements AppointmentService{
 	public Appointment addAppointment(Appointment appointment) {
 		// TODO Auto-generated method stub
 		long recdPatientId=0;
+		boolean status=false;
 		Appointment appointmentRequest=this.appointmentRepo.findById(appointment.getAppointmentId())
 				.orElse(null);
 		if(appointmentRequest!=null){
@@ -56,14 +57,18 @@ public class AppointmentServiceImpl implements AppointmentService{
 			      int i = 0;
 			      for (Map.Entry < String, Object > entry: map.entrySet()) {
 			        System.out.println(entry.getKey() + " = " + entry.getValue());
-			        if(entry.getKey()=="patientId") {
-			        	recdPatientId=Long.parseLong(entry.getValue().toString());
+			        		        
+			        if(entry.getKey()=="object") {
+			        	status=true;
+			        	//recdPatientId=Long.parseLong(entry.getValue().toString());
+			            break;
 			        }
 			        i++;
 			      }
 				}
+			log.info("Received Patient Id"+recdPatientId);	
 			
-			if(recdPatientId == appointment.getPatientId()) {
+			if(status) {
 				log.info("Appointment Created");
 		        return this.appointmentRepo.save(appointment);
 			}

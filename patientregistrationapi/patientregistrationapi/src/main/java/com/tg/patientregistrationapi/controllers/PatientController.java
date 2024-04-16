@@ -50,7 +50,7 @@ public class PatientController {
        }
     
     
-    @GetMapping("/v1.0/{patientId}")
+    @GetMapping(value = "/v1.0/{patientId}",produces = { "application/json"})
    	@CrossOrigin(allowedHeaders = "*",origins = "*", 
    	methods=RequestMethod.GET)
        public ResponseEntity<ResponseWrapper> getPatientById(@PathVariable("patientId") long patientId){

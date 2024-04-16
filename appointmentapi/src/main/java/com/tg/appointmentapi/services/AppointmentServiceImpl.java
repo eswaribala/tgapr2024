@@ -2,13 +2,22 @@ package com.tg.appointmentapi.services;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
+import org.springframework.boot.json.JsonParser;
+import org.springframework.boot.json.JsonParserFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.json.JsonParserFactory;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
+import com.fasterxml.jackson.core.JsonParser;
 import com.tg.appointmentapi.exceptions.AppointmentAlreadyExistsException;
 import com.tg.appointmentapi.exceptions.AppointmentNotFoundException;
 import com.tg.appointmentapi.models.Appointment;
@@ -20,11 +29,15 @@ import lombok.extern.slf4j.Slf4j;
 public class AppointmentServiceImpl implements AppointmentService{
     @Autowired
 	private AppointmentRepository appointmentRepo;
-	
+    @Autowired
+    private RestTemplate restTemplate;
+    private ResponseEntity<String> response;
+    @Value("${patientApiUrl}")
+    private String patientApiUrl;
 	@Override
 	public Appointment addAppointment(Appointment appointment) {
 		// TODO Auto-generated method stub
-		
+		long recdPatientId=0;
 		Appointment appointmentRequest=this.appointmentRepo.findById(appointment.getAppointmentId())
 				.orElse(null);
 		if(appointmentRequest!=null){
@@ -32,8 +45,31 @@ public class AppointmentServiceImpl implements AppointmentService{
 			throw new AppointmentAlreadyExistsException("Appointment details Already Found!!!");
 		}else
 		{
-			log.info("Appointment Created");
-		return this.appointmentRepo.save(appointment);
+			
+			  response=restTemplate.exchange(patientApiUrl+appointment.getPatientId(),
+						HttpMethod.GET,null,String.class);
+			  log.info("Response"+response.getBody());
+				if(response.getBody()!=null) {
+				JsonParser springParser = JsonParserFactory.getJsonParser();
+			      Map < String, Object > map = springParser.parseMap(response.getBody());
+			      String mapArray[] = new String[map.size()];
+			      System.out.println("Patient found: " + mapArray.length);
+			      int i = 0;
+			      for (Map.Entry < String, Object > entry: map.entrySet()) {
+			        System.out.println(entry.getKey() + " = " + entry.getValue());
+			        if(entry.getKey()=="patientId") {
+			        	recdPatientId=Long.parseLong(entry.getValue().toString());
+			        }
+			        i++;
+			      }
+				}
+			
+			if(recdPatientId == appointment.getPatientId()) {
+				log.info("Appointment Created");
+		        return this.appointmentRepo.save(appointment);
+			}
+			else
+				throw new AppointmentNotFoundException("Patient Id not matching....");
 		}
 	}
 

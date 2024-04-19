@@ -40,8 +40,8 @@ public class PatientController {
     	
     }
     
-    @GetMapping("/v1.0/")
     @PreAuthorize("hasRole('ADMIN')")
+    @GetMapping("/v1.0/")  
    	@CrossOrigin(allowedHeaders = "*",origins = "*", 
    	methods=RequestMethod.GET)
        public ResponseEntity<ResponseWrapper> getAllPatients(){

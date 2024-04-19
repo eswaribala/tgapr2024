@@ -5419,3 +5419,6 @@ org.eclipse.core.runtime.CoreException: Launch configuration HealthcaremvcappApp
 2024-04-19 19:43:36,729 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-04-19 19:43:36,734 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-04-19 19:43:36,738 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\tgwsapr2024\patientregistrationapi\patientregistrationapi\src\test\resources
+2024-04-19 19:44:08,875 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-19 19:44:08,883 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-19 19:44:08,888 [Worker-68: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\tgwsapr2024\patientregistrationapi\patientregistrationapi\src\test\resources

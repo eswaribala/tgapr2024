@@ -7,10 +7,10 @@ import com.tg.appointmentapi.models.Appointment;
 
 public interface AppointmentService {
 	
-	Appointment addAppointment(Appointment patient);
+	Appointment addAppointment(Appointment appointment);
 	List<Appointment> getAllAppointments();
-	Appointment getAppointmentById(long patientId);
-	Appointment updateAppointment(long appointmentId, LocalDate date);
-	boolean deleteAppointment(long appointmentId);
+	Appointment getAppointmentById(String appointmentId);
+	Appointment updateAppointment(String appointmentId, LocalDate date);
+	boolean deleteAppointment(String appointmentId);
 
 }

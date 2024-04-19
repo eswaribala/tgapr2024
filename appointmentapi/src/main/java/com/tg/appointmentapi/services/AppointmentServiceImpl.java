@@ -38,8 +38,12 @@ public class AppointmentServiceImpl implements AppointmentService{
 		// TODO Auto-generated method stub
 		long recdPatientId=0;
 		boolean status=false;
-		Appointment appointmentRequest=this.appointmentRepo.findById(appointment.getAppointmentId())
+		Appointment appointmentRequest=null;
+		if(appointment.getAppointmentId()!=null) {
+		
+			appointmentRequest=this.appointmentRepo.findById(appointment.getAppointmentId())
 				.orElse(null);
+		}
 		if(appointmentRequest!=null){
 			log.info("Appointment Already Exists");
 			throw new AppointmentAlreadyExistsException("Appointment details Already Found!!!");
@@ -86,7 +90,7 @@ public class AppointmentServiceImpl implements AppointmentService{
 
 	@Override
 	
-	public Appointment getAppointmentById(long appointmentId) {
+	public Appointment getAppointmentById(String appointmentId) {
 		// TODO Auto-generated method stub
 		return this.appointmentRepo.findById(appointmentId)
 				.orElseThrow(()->new 
@@ -96,7 +100,7 @@ public class AppointmentServiceImpl implements AppointmentService{
 
 	@Override
 	
-	public Appointment updateAppointment(long appointmentId, LocalDate date) {
+	public Appointment updateAppointment(String appointmentId, LocalDate date) {
 		
 		Appointment Appointment=this.getAppointmentById(appointmentId);
 		// TODO Auto-generated method stub
@@ -112,7 +116,7 @@ public class AppointmentServiceImpl implements AppointmentService{
 
 	@Override
 	
-	public boolean deleteAppointment(long AppointmentId) {
+	public boolean deleteAppointment(String AppointmentId) {
 		boolean status=false;
 		// TODO Auto-generated method stub
 		Appointment Appointment=this.getAppointmentById(AppointmentId);

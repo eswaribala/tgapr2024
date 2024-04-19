@@ -54,7 +54,7 @@ public class AppointmentController {
     @GetMapping("/v1.0/{appointmentId}")
    	@CrossOrigin(allowedHeaders = "*",origins = "*", 
    	methods=RequestMethod.GET)
-       public ResponseEntity<ResponseWrapper> getAppointmentById(@PathVariable("appointmentId") long appointmentId){
+       public ResponseEntity<ResponseWrapper> getAppointmentById(@PathVariable("appointmentId") String appointmentId){
        	
     	Appointment appointmentResponse=this.appointmentService.getAppointmentById(appointmentId);
     	return ResponseEntity.status(HttpStatus.OK).body(new 
@@ -66,7 +66,7 @@ public class AppointmentController {
     @PutMapping("/v1.0/{appointmentId}/{date}")
    	@CrossOrigin(allowedHeaders = "*",origins = "*", 
    	methods=RequestMethod.PUT)
-       public ResponseEntity<ResponseWrapper> updateAppointment(@PathVariable("appointmentId") long appointmentId, 
+       public ResponseEntity<ResponseWrapper> updateAppointment(@PathVariable("appointmentId") String appointmentId, 
     		   @PathVariable("date") String date ){
        	
     	LocalDate doa=LocalDate.parse(date);
@@ -79,7 +79,7 @@ public class AppointmentController {
     @DeleteMapping("/v1.0/{appointmentId}")
    	@CrossOrigin(allowedHeaders = "*",origins = "*", 
    	methods=RequestMethod.DELETE)
-       public ResponseEntity<ResponseWrapper> deleteAppointment(@PathVariable("appointmentId") long appointmentId){
+       public ResponseEntity<ResponseWrapper> deleteAppointment(@PathVariable("appointmentId") String appointmentId){
        	
        	boolean status=this.appointmentService.deleteAppointment(appointmentId);
        	if(status)

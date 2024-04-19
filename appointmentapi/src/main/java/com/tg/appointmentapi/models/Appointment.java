@@ -3,9 +3,11 @@ package com.tg.appointmentapi.models;
 import java.io.Serializable;
 import java.time.LocalDate;
 
+import org.hibernate.annotations.GenericGenerator;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.format.annotation.DateTimeFormat.ISO;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
@@ -25,9 +27,12 @@ import lombok.NoArgsConstructor;
 @Table(name="Appointment")
 public class Appointment implements Serializable{
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GenericGenerator(name="appointment_id",strategy = "com.tg.appointmentapi.models.IdGenerator")
+    @GeneratedValue(generator = "appointment_id")
+	@Schema(hidden = true)  
+	//@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="Appointment_Id")
-	private long appointmentId;
+	private String appointmentId;
 	@Column(name="Appointment_Date")
 	@DateTimeFormat(iso = ISO.DATE)
 	private LocalDate doa;

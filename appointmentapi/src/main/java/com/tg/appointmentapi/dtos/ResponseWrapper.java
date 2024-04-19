@@ -12,6 +12,7 @@ public class ResponseWrapper<T> {
 	private T object;
 	public ResponseWrapper(T object) {
 		super();
+		this.message="Appointment Created";
 		this.object = object;
 	}
 	public ResponseWrapper(String message) {

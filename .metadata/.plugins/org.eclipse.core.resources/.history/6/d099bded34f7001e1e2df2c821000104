@@ -1,8 +1,0 @@
-package com.tg.healthcareapp.models;
-
-public class Service {
-
-	private long serviceId;
-	private String serviceName;
-	
-}

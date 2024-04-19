@@ -81,3 +81,55 @@
 2024-04-16 19:34:28,768 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
 2024-04-16 19:34:33,257 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 4.519 seconds (process running for 864.834)
 2024-04-16 19:34:39,759 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-16 19:34:39,787 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 44560 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-16 19:34:39,787 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-16 19:34:39,788 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-16 19:34:43,078 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 3.315 seconds (process running for 874.655)
+2024-04-16 19:34:51,760 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-1] Response{"message":null,"object":{"patientId":1,"name":{"firstName":"Arun","middleName":"","lastName":"Kumar"},"dob":"2001-04-13","gender":"MALE","occupation":"GOVT","email":"arun@gmail.com","mobileNo":9987656890}}
+2024-04-16 19:34:51,762 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-1] Received Patient Id0
+2024-04-16 19:34:51,762 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-1] Appointment Created
+2024-04-16 19:49:39,943 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-6] Response{"message":null,"object":{"patientId":1,"name":{"firstName":"Arun","middleName":"","lastName":"Kumar"},"dob":"2001-04-13","gender":"MALE","occupation":"GOVT","email":"arun@gmail.com","mobileNo":9987656890}}
+2024-04-16 19:49:39,945 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-6] Received Patient Id0
+2024-04-16 19:49:39,946 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-6] Appointment Created
+2024-04-17 18:54:41,154 INFO c.t.a.AppointmentapiApplication [main] API Loading..........
+2024-04-17 18:54:42,066 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-17 18:54:43,594 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 70140 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-17 18:54:43,595 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-17 18:54:43,599 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-17 18:55:13,165 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 31.076 seconds (process running for 33.875)
+2024-04-17 18:57:09,032 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-8] Response{"message":null,"object":{"patientId":1,"name":{"firstName":"Arun","middleName":"","lastName":"Kumar"},"dob":"2001-04-13","gender":"MALE","occupation":"GOVT","email":"arun@gmail.com","mobileNo":9987656890}}
+2024-04-17 18:57:09,040 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-8] Received Patient Id0
+2024-04-17 18:57:09,041 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-8] Appointment Created
+2024-04-17 19:05:26,062 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-3] Response{"message":null,"object":{"patientId":1,"name":{"firstName":"Arun","middleName":"","lastName":"Kumar"},"dob":"2001-04-13","gender":"MALE","occupation":"GOVT","email":"arun@gmail.com","mobileNo":9987656890}}
+2024-04-17 19:05:26,065 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-3] Received Patient Id0
+2024-04-17 19:05:26,065 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-3] Appointment Created
+2024-04-17 19:10:38,846 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-17 19:10:38,956 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 70140 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-17 19:10:38,957 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-17 19:10:38,957 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-17 19:13:32,469 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-17 19:13:32,613 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 70140 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-17 19:13:32,614 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-17 19:13:32,615 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-17 19:13:37,586 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-17 19:13:37,632 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 70140 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-17 19:13:37,633 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-17 19:13:37,633 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-17 19:13:43,370 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 5.779 seconds (process running for 1144.079)
+2024-04-17 19:18:01,671 INFO c.t.a.AppointmentapiApplication [main] API Loading..........
+2024-04-17 19:18:02,123 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-17 19:18:03,005 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 41408 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-17 19:18:03,006 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-17 19:18:03,008 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-17 19:18:27,777 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 25.637 seconds (process running for 27.667)
+2024-04-17 19:19:08,639 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-10] Response{"message":null,"object":{"patientId":1,"name":{"firstName":"Arun","middleName":"","lastName":"Kumar"},"dob":"2001-04-13","gender":"MALE","occupation":"GOVT","email":"arun@gmail.com","mobileNo":9987656890}}
+2024-04-17 19:19:08,649 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-10] Received Patient Id0
+2024-04-17 19:19:08,649 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-10] Appointment Created
+2024-04-17 19:20:58,957 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-17 19:20:59,051 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 41408 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-17 19:20:59,051 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-17 19:20:59,052 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-17 19:21:05,638 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 6.672 seconds (process running for 185.529)
+2024-04-17 19:21:29,976 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-10] Response{"message":null,"object":{"patientId":1,"name":{"firstName":"Arun","middleName":"","lastName":"Kumar"},"dob":"2001-04-13","gender":"MALE","occupation":"GOVT","email":"arun@gmail.com","mobileNo":9987656890}}
+2024-04-17 19:21:29,979 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-10] Received Patient Id0
+2024-04-17 19:21:29,979 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-10] Appointment Created

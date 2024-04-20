@@ -26,7 +26,7 @@ import com.tg.patientregistrationapi.services.PatientService;
 public class PatientController {
     @Autowired 
 	private PatientService patientService;
-    @PreAuthorize("hasRole('USER')")
+    @PreAuthorize("hasRole('ROLE_USER')")
     
     @PostMapping("/v1.0/")
 	@CrossOrigin(allowedHeaders = "*",origins = "*", 
@@ -40,7 +40,7 @@ public class PatientController {
     	
     }
     
-    @PreAuthorize("hasRole('ADMIN')")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     @GetMapping("/v1.0/")  
    	@CrossOrigin(allowedHeaders = "*",origins = "*", 
    	methods=RequestMethod.GET)

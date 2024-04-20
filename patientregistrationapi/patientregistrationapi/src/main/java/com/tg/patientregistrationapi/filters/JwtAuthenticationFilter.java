@@ -3,13 +3,6 @@ package com.tg.patientregistrationapi.filters;
 import java.io.IOException;
 
 
-
-
-import jakarta.servlet.FilterChain;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -23,6 +16,12 @@ import com.tg.patientregistrationapi.configurations.JwtUtil;
 import com.tg.patientregistrationapi.exceptions.JwtTokenMissingException;
 import com.tg.patientregistrationapi.models.User;
 import com.tg.patientregistrationapi.services.UserAuthService;
+
+import jakarta.servlet.FilterChain;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
 
 
 

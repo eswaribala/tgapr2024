@@ -37,14 +37,14 @@ public class PatientServiceImpl implements PatientService{
 	}
 
 	@Override
-	@Cacheable(value="Patient")
+	//@Cacheable(value="Patient")
 	public List<Patient> getAllPatients() {
 		// TODO Auto-generated method stub
 		return this.patientRepo.findAll();
 	}
 
 	@Override
-	@Cacheable(value="Patient", key="#patientId", condition="#patientId>0")
+	//@Cacheable(value="Patient", key="#patientId", condition="#patientId>0")
 	public Patient getPatientById(long patientId) {
 		// TODO Auto-generated method stub
 		return this.patientRepo.findById(patientId)
@@ -54,7 +54,7 @@ public class PatientServiceImpl implements PatientService{
 	}
 
 	@Override
-	@CachePut(value="Patient", key="#patientId")
+	//@CachePut(value="Patient", key="#patientId")
 	public Patient updatePatient(long patientId, long mobileNo) {
 		
 		Patient patient=this.getPatientById(patientId);
@@ -70,7 +70,7 @@ public class PatientServiceImpl implements PatientService{
 	}
 
 	@Override
-	@CacheEvict(value="Patient", key="#patientId")
+	//@CacheEvict(value="Patient", key="#patientId")
 	public boolean deletePatient(long patientId) {
 		boolean status=false;
 		// TODO Auto-generated method stub

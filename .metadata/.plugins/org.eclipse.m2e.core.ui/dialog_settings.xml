@@ -68,6 +68,10 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\tgwsapr2024\jwtapi\jwtapi"/>
+			<item value="E:\tgwsapr2024\jwtsecurity"/>
+			<item value="I:\boajuly2020ws\jwtsecurity"/>
+			<item value="I:\boainter2020\jwtsecurity"/>
 			<item value="I:\virtusa_aug2019\day15springjparestdemo"/>
 			<item value="E:\tgwsapr2024\patientregistrationapi\patientregistrationapi"/>
 			<item value="E:\tgwsapr2024\healthcaremvcapp\healthcaremvcapp"/>

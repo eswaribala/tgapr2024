@@ -6,7 +6,6 @@ import java.util.List;
 
 import java.util.stream.Collectors;
 
-import io.jsonwebtoken.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
@@ -17,21 +16,24 @@ import com.tg.patientregistrationapi.exceptions.JwtTokenMissingException;
 import com.tg.patientregistrationapi.models.Role;
 import com.tg.patientregistrationapi.models.User;
 
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.ExpiredJwtException;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.MalformedJwtException;
+import io.jsonwebtoken.SignatureAlgorithm;
+import io.jsonwebtoken.SignatureException;
+import io.jsonwebtoken.UnsupportedJwtException;
+
 
 
 @Component
-
+//@EnableConfigurationProperties(VaultConfiguration.class)
 
 public class JwtUtil {
 
 	@Value("${jwt.secret}")
 	private String jwtSecret;
-	//private final VaultConfiguration vaultConfiguration;
-	//vault initialization
-	//public JwtUtil(VaultConfiguration configuration) {
-	  //  this.vaultConfiguration = configuration;
-	 // }
-
+	
 	@Value("${jwt.token.validity}")
 	private long tokenValidity;
 
@@ -57,7 +59,7 @@ public class JwtUtil {
 		long expMillis = nowMillis + tokenValidity;
 		Date exp = new Date(expMillis);
 		return Jwts.builder().setClaims(claims).setIssuedAt(new Date(nowMillis)).setExpiration(exp)
-				.signWith(SignatureAlgorithm.HS512,jwtSecret).compact();
+				.signWith(SignatureAlgorithm.HS512, jwtSecret).compact();
 	}
 
 	public void validateToken(final String token) {

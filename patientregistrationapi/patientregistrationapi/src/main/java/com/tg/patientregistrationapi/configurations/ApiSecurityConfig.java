@@ -3,7 +3,6 @@ package com.tg.patientregistrationapi.configurations;
 
 
 
-import jakarta.servlet.Filter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
@@ -14,6 +13,7 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
+import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -29,7 +29,9 @@ import com.tg.patientregistrationapi.services.UserAuthService;
 
 
 @Configuration
-@EnableWebSecurity
+//@EnableWebSecurity
+//spring boot 3 onwards
+@EnableMethodSecurity
 public class ApiSecurityConfig  {
 
 	@Autowired
@@ -60,15 +62,18 @@ public class ApiSecurityConfig  {
 	  public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		 http.csrf(csrf -> csrf.disable()).authorizeHttpRequests(authz -> authz
 				 .requestMatchers("/signin", "/signup")
+
+				 
 		 .permitAll().anyRequest()
 			.authenticated())
+		 
 		 .exceptionHandling((exception)-> 
 		 exception.authenticationEntryPoint(authenticationEntryPoint))
 		 .sessionManagement(sess -> sess.sessionCreationPolicy
-				 (SessionCreationPolicy.STATELESS))  		 
+				 (SessionCreationPolicy.STATELESS))  	
+		 
 	     .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
-
-	       return http.build();
+		      return http.build();
 	   }
 
 

@@ -47,9 +47,9 @@ public class AppointmentServiceImpl implements AppointmentService{
     
     @Value("${signInUrl}")
     private String signInUrl;
-    @Value("${username}")
+    @Value("${jwtUserName}")
     private String userName;
-    @Value("${password}")
+    @Value("${jwtPassword}")
     private String password;
 	@Override
 	public Appointment addAppointment(Appointment appointment) {
@@ -60,6 +60,8 @@ public class AppointmentServiceImpl implements AppointmentService{
 		JwtRequest jwtRequest=new JwtRequest();
 		jwtRequest.setUserName(userName);	
 		jwtRequest.setUserPwd(password);
+		log.info(jwtRequest.getUserName());
+		log.info(jwtRequest.getUserPwd());
 		Appointment appointmentRequest=null;
 		if(appointment.getAppointmentId()!=null) {
 		
@@ -84,8 +86,8 @@ public class AppointmentServiceImpl implements AppointmentService{
 	            HttpEntity request = new HttpEntity<>(jwtRequest, headers);
 	           
 	            ResponseEntity<?> authResponse = restTemplate.
-	                    postForEntity(signInUrl + "signin", request, String.class);
-	            System.out.println(authResponse.getBody().toString());
+	                    postForEntity(signInUrl, request, String.class);
+	            log.info(authResponse.getBody().toString());
 	            token=parseString(authResponse.getBody().toString());
 
                   
@@ -97,10 +99,10 @@ public class AppointmentServiceImpl implements AppointmentService{
 
 	            request = new HttpEntity<String>(null,headers);
 
-	            
+	            log.info("Patient Id"+appointment.getPatientId());
 				  response=restTemplate.exchange(patientApiUrl+appointment.getPatientId(),
 							HttpMethod.GET,request,String.class);
-				  log.info("Response"+response.getBody());
+				  log.info("Response"+response);
 					if(response.getBody()!=null) {
 					JsonParser springParser = JsonParserFactory.getJsonParser();
 				      Map < String, Object > map = springParser.parseMap(response.getBody());
@@ -128,12 +130,13 @@ public class AppointmentServiceImpl implements AppointmentService{
 					throw new AppointmentNotFoundException("Patient Id not matching....");
 				
 			}catch(Exception e) {
+				log.info(e.getMessage());
 				throw new AppointmentNotFoundException("Patient Id not matching....");
 			}
 			
 			
 			
-			
+			//return null;
 			
 		}
 	}

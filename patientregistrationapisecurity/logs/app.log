@@ -248,3 +248,7 @@
 2024-04-25 16:16:13,485 INFO c.t.p.PatientregistrationapiApplication [restartedMain] Started PatientregistrationapiApplication in 38.724 seconds (process running for 40.608)
 2024-04-25 16:20:46,773 INFO c.t.p.PatientregistrationapiApplication [main] API Loading..........
 2024-04-25 16:20:47,333 INFO c.t.p.PatientregistrationapiApplication [restartedMain] API Loading..........
+2024-04-25 16:20:48,538 INFO c.t.p.PatientregistrationapiApplication [restartedMain] Starting PatientregistrationapiApplication using Java 17.0.9 with PID 27180 (E:\tgwsapr2024\patientregistrationapisecurity\target\classes started by Dell in E:\tgwsapr2024\patientregistrationapisecurity)
+2024-04-25 16:20:48,539 DEBUG c.t.p.PatientregistrationapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 16:20:48,542 INFO c.t.p.PatientregistrationapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 16:21:21,474 INFO c.t.p.PatientregistrationapiApplication [restartedMain] Started PatientregistrationapiApplication in 34.108 seconds (process running for 36.159)

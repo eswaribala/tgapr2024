@@ -148,3 +148,148 @@
 2024-04-20 12:34:51,261 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-10] Response{"message":null,"object":{"patientId":1,"name":{"firstName":"Parameswari","middleName":"","lastName":"Bala"},"dob":"1970-04-20","gender":"FEMALE","occupation":"GOVT","email":"param@fmail.com","mobileNo":9952032862}}
 2024-04-20 12:34:51,267 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-10] Received Patient Id0
 2024-04-20 12:34:51,268 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-10] Appointment Created
+2024-04-25 16:43:54,448 INFO c.t.a.AppointmentapiApplication [main] API Loading..........
+2024-04-25 16:43:54,844 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 16:43:55,744 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 17344 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 16:43:55,754 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 16:43:55,770 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 16:44:24,806 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 29.951 seconds (process running for 31.879)
+2024-04-25 16:49:11,677 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 16:49:11,734 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 17344 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 16:49:11,735 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 16:49:11,735 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 16:49:14,954 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 3.27 seconds (process running for 322.028)
+2024-04-25 16:49:32,485 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 16:49:32,538 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 17344 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 16:49:32,539 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 16:49:32,540 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 16:49:35,335 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 2.845 seconds (process running for 342.409)
+2024-04-25 16:49:54,868 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 16:49:54,904 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 17344 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 16:49:54,904 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 16:49:54,904 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 16:49:57,485 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 2.612 seconds (process running for 364.559)
+2024-04-25 16:50:10,168 INFO c.t.a.AppointmentapiApplication [main] API Loading..........
+2024-04-25 16:50:10,454 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 16:50:10,972 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 19120 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 16:50:10,973 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 16:50:10,974 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 16:50:24,985 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 14.521 seconds (process running for 15.528)
+2024-04-25 16:50:50,171 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Dell
+2024-04-25 16:50:50,171 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Test@123
+2024-04-25 16:52:07,735 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 16:52:07,791 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 19120 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 16:52:07,791 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 16:52:07,793 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 16:52:11,418 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 3.678 seconds (process running for 121.963)
+2024-04-25 16:52:38,817 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Dell
+2024-04-25 16:52:38,817 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Test@123
+2024-04-25 16:53:29,197 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 16:53:29,241 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 19120 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 16:53:29,241 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 16:53:29,242 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 16:53:32,797 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 3.595 seconds (process running for 203.341)
+2024-04-25 16:53:52,706 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Dell
+2024-04-25 16:53:52,707 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Test@123
+2024-04-25 16:53:52,721 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] 401 : [no body]
+2024-04-25 16:55:27,784 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 16:55:27,841 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 19120 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 16:55:27,842 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 16:55:27,842 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 16:55:30,863 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 3.074 seconds (process running for 321.407)
+2024-04-25 16:55:58,045 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Dell
+2024-04-25 16:55:58,046 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Test@123
+2024-04-25 16:55:58,061 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] 401 : [no body]
+2024-04-25 17:17:20,621 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:17:20,667 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 19120 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:17:20,668 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:17:20,669 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:17:23,497 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 2.871 seconds (process running for 1634.041)
+2024-04-25 17:17:40,001 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:17:40,031 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 19120 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:17:40,031 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:17:40,031 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:17:42,388 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 2.382 seconds (process running for 1652.932)
+2024-04-25 17:18:02,141 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Dell
+2024-04-25 17:18:02,142 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Test@123
+2024-04-25 17:18:02,328 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] 500 : "<ResponseWrapper><message>Invalid Credentials</message><object/></ResponseWrapper>"
+2024-04-25 17:19:12,236 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:19:12,274 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 19120 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:19:12,275 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:19:12,275 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:19:15,840 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:19:15,861 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 19120 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:19:15,861 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:19:15,861 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:19:29,444 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:19:29,488 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 19120 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:19:29,489 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:19:29,489 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:19:35,880 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:19:35,900 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 19120 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:19:35,900 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:19:35,900 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:20:03,796 INFO c.t.a.AppointmentapiApplication [main] API Loading..........
+2024-04-25 17:20:04,226 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:20:04,910 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 28188 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:20:04,912 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:20:04,914 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:21:30,938 INFO c.t.a.AppointmentapiApplication [main] API Loading..........
+2024-04-25 17:21:31,301 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:21:31,999 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 2708 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:21:32,000 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:21:32,004 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:21:46,380 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 15.066 seconds (process running for 16.223)
+2024-04-25 17:22:05,316 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] suman
+2024-04-25 17:22:05,316 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] Test@123
+2024-04-25 17:22:05,493 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-5] {"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdW1hbiIsInJvbGVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE3MTQwNDU5MjUsImV4cCI6MTcxNDA0NjEwNX0.ZirbZEYh3VWhvqzTjclGFeMJuzDSRJVhA9HY95Gn7UJIgEuyLzAfMaLGLzOUqGqnOqzc5i0PAHXu2Zr8KfsnfA"}
+2024-04-25 17:22:35,054 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:22:35,108 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 2708 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:22:35,108 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:22:35,108 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:22:39,719 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 4.658 seconds (process running for 69.563)
+2024-04-25 17:22:41,265 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:22:41,317 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 2708 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:22:41,317 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:22:41,317 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:22:44,440 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 3.168 seconds (process running for 74.283)
+2024-04-25 17:23:03,203 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-8] suman
+2024-04-25 17:23:03,204 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-8] Test@123
+2024-04-25 17:23:03,363 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-8] {"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdW1hbiIsInJvbGVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE3MTQwNDU5ODMsImV4cCI6MTcxNDA0NjE2M30.tUG2xzT8gIapzKtmd_iOepvw7FjsIVEYFk5D9rzwuN4AELWPoKJnIyWwGNbIbyYMLv_VqViiWpfI0USUNxE_jg"}
+2024-04-25 17:23:03,392 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-8] 401 : [no body]
+2024-04-25 17:23:58,504 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:23:58,556 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 2708 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:23:58,556 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:23:58,556 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:24:01,952 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 3.443 seconds (process running for 151.795)
+2024-04-25 17:24:03,414 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:24:03,468 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 2708 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:24:03,470 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:24:03,471 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:24:06,279 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 2.86 seconds (process running for 156.123)
+2024-04-25 17:24:07,836 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:24:07,873 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 2708 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:24:07,873 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:24:07,873 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:24:10,100 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 2.259 seconds (process running for 159.943)
+2024-04-25 17:25:19,275 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:25:19,322 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 2708 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:25:19,322 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:25:19,322 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:25:21,717 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 2.435 seconds (process running for 231.56)
+2024-04-25 17:25:25,310 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:25:25,368 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 2708 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:25:25,368 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:25:25,368 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:25:27,821 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 2.504 seconds (process running for 237.665)
+2024-04-25 17:25:32,360 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
+2024-04-25 17:25:32,400 INFO c.t.a.AppointmentapiApplication [restartedMain] Starting AppointmentapiApplication using Java 17.0.9 with PID 2708 (E:\tgwsapr2024\appointmentapi\target\classes started by Dell in E:\tgwsapr2024\appointmentapi)
+2024-04-25 17:25:32,400 DEBUG c.t.a.AppointmentapiApplication [restartedMain] Running with Spring Boot v3.2.4, Spring v6.1.5
+2024-04-25 17:25:32,402 INFO c.t.a.AppointmentapiApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-04-25 17:25:34,533 INFO c.t.a.AppointmentapiApplication [restartedMain] Started AppointmentapiApplication in 2.17 seconds (process running for 244.377)
+2024-04-25 17:25:40,429 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-1] suman
+2024-04-25 17:25:40,429 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-1] Test@123
+2024-04-25 17:25:40,610 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-1] {"token":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJzdW1hbiIsInJvbGVzIjpbIlJPTEVfVVNFUiJdLCJpYXQiOjE3MTQwNDYxNDAsImV4cCI6MTcxNDA0NjMyMH0.Fj-4otG3NC9SLJBUCsNel5jpsoc1VpBMH2khv8Rg8EZBhAi73G4Xqvn4Q2b_LHQWI4pXIsrHQYRXEf5jal5TDA"}
+2024-04-25 17:25:40,612 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-1] Patient Id1
+2024-04-25 17:25:40,621 INFO c.t.a.s.AppointmentServiceImpl [http-nio-7076-exec-1] 401 : [no body]
+2024-04-25 17:26:11,479 INFO c.t.a.AppointmentapiApplication [restartedMain] API Loading..........
